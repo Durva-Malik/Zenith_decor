@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>REGISTER FOR MORE</title>
+    <link rel="stylesheet" href="made.css">
+    <script src="java.js"></script>
+</head>
+<body>
+     <nav>
+                <ul>
+                    <li><a href="newhtml.html">Contact</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="durva.html">Portfolio</a></li>
+                    <li><a href="index.html">Home</a></li>
+                </ul>
+               
+            </nav>
+    <table>
+        <th class="ok">
+           
+            <h1><u>Contact Us</u></h1>
+      <h2><i>"The first step in exceeding your customer's expectations is to know those expectations."</i>
+</h2>       
+    <h2> Office Address :</h2>
+    <p>#121,Sector 22 ,Mohali ,India</p>
+    <h2> Business Hours :</h2>
+    <p>Monday to Friday : 10am to 6pm<br>
+Saturday : 10am to 2pm</p>
+    <h2>Phone No. :</h2>
+    <p>+91 9050977990<br>
+    +91 9996904990</p>
+    <h2>E-mail :</h2>
+    <p>zenith.decor@gmail.com</p></th>
+        <th> <div class="back">        
+<form name="contactForm" onsubmit="return validateForm()" action="confirmation.php" method="post">
+    <h2>Get In Touch</h2>
+    <div class="row">
+        <label>Full Name</label>
+        <input type="text" name="name">
+        <div class="error" id="nameErr"></div>
+    </div>
+    <div class="row">
+        <label>Email Address</label>
+        <input type="text" name="email">
+        <div class="error" id="emailErr"></div>
+    </div>
+    <div class="row">
+        <label>Mobile Number</label>
+        <input type="text" name="mobile" maxlength="10">
+        <div class="error" id="mobileErr"></div>
+    </div>
+    <div class="row">
+        <label>Country</label>
+        <select name="country">
+            <option>Select</option>
+            <option>Australia</option>
+            <option>India</option>
+            <option>United States</option>
+            <option>United Kingdom</option>
+            <option>Sri Lanka</option>
+            <option>Nepal</option>
+            <option>Italy</option>
+            <option>Germany</option>
+            
+        </select> 
+        <div class="error" id="countryErr"></div>
+    </div>
+    <div class="row">
+        <label>Gender</label>
+        <div class="form-inline">
+            <label><input type="radio" name="gender" value="male"> Male</label>
+            <label><input type="radio" name="gender" value="female"> Female</label> 
+        </div>
+        <div class="error" id="genderErr"></div>
+    </div>
+    <div class="row">
+        <label>Preference<i>(Optional)</i></label>
+        <div class="form-inline">
+            <label><input type="checkbox" name="choice[]" value="">Modern </label>
+            <label><input type="checkbox" name="choice[]" value="">Contemporary</label>
+            <label><input type="checkbox" name="choice[]" value="">Minimalist</label> 
+            <label><input type="checkbox" name="choice[]" value="">Bohemian</label>
+            <label><input type="checkbox" name="choice[]" value="">Scandinavian</label>
+        </div>
+    </div>         
+       
+    <div class="row">
+        <input type="submit" value="Submit">
+    </div>
+</form></th>
+    </table>
+    <footer>
+        <div>
+                <center>
+                    <p>Copyright &copy Zenith Decor. All Rights Reserved  |  Contact Us: +91 9050977990</p>
+                    <p>Durva Malik 1902054 || Dheeraj Pratap 1902047</p>
+                </center>
+            </div>
+    </footer>
+    
+</body>
+</html>
